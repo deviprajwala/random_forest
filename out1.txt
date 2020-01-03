@@ -1,0 +1,12 @@
+digraph G {
+start1->bodytemperature0[ label="yes"];
+start1->bodytemperature1[ label="no"];
+bodytemperature0->mammal[ label="class"];
+mammal[ shape=rectangle]
+bodytemperature1->aquatic0[ label="yes"];
+aquatic1->reptile[ label="class"];
+reptile[ shape=rectangle]
+bodytemperature1->aquatic1[ label="no"];
+aquatic0->fish[ label="class"];
+fish[ shape=rectangle]
+}
